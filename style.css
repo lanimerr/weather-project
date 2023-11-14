@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page-header {
+  margin-top: 40px;
+  text-align: center;
+}
+
+body {
+  background: rgb(195, 190, 255);
+  background: linear-gradient(
+    193deg,
+    rgba(195, 190, 255, 1) 0%,
+    rgba(255, 149, 242, 1) 73%,
+    rgba(198, 159, 226, 1) 77%
+  );
+}
+
+.col {
+  border: 1px solid black;
+}
+
+.search-form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#search-query {
+  margin-right: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.current-weather {
+  font-size: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 450;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
